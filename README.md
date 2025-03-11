@@ -177,7 +177,7 @@ CacheFlowX/
 
 ## 🚀 Applications
 
-- **Real-Time Chat**: Uses Redis Streams (`XADD`) for instant messaging.
+- **Real-Time Chat**: Uses Redis Streams for instant messaging.
 - **Caching System**: Reduces database queries by caching leaderboard results and user profiles.
 - **Task Queue Management**: Prioritizes and executes background tasks asynchronously using Bull Queue.
 - **Leaderboard System**: Efficiently tracks and ranks users using Redis Sorted Sets.
