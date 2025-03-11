@@ -13,6 +13,7 @@ const leaderboardRoutes = require("./routes/leaderboardRoutes");
 const preferencesRoutes = require("./routes/preferencesRoutes");
 const profileRoutes = require("./routes/profileRoutes");
 const taskRoutes = require("./routes/taskRoutes");
+const chatRoutes = require("./routes/chatRoutes");
 const rateLimiter = require("./middlewares/rateLimiter");
 
 app.use(express.json());
@@ -26,7 +27,8 @@ app.use("/api/leaderboard", leaderboardRoutes);
 app.use("/api/preferences", preferencesRoutes);
 app.use("/api/profile", profileRoutes);
 app.use("/api/tasks", taskRoutes);
+app.use("/api/chat", chatRoutes);
 
 
 
-app.listen(3000, () => console.log("🚀 Server running on port 3000"));
+app.listen(3000, () => console.log(" Server running on port 3000"));
